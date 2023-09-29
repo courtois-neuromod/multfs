@@ -24,18 +24,17 @@ body:
   attributes:
     label: general notes
 
-
 - type: markdown
   attributes:
-    value: "## task-mariostars_run-01"
+    value: "## task-dms_run-01"
 - type: checkboxes
   attributes:
-    label: task-mariostars_run-01 completion  
+    label: task-dms_run-01 completion  
     options:
       - label: series was completed.
 - type: dropdown
   attributes:
-    label: task-mariostars_run-01 issues
+    label: task-dms_run-01 issues
     multiple: true
     options:
       - sleep
@@ -45,19 +44,19 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-mariostars_run-01 notes
+    label: task-dms_run-01 notes
 
 - type: markdown
   attributes:
-    value: "## task-mariostars_run-02"
+    value: "## task-interdms_run-01"
 - type: checkboxes
   attributes:
-    label: task-mariostars_run-02 completion  
+    label: task-interdms_run-01 completion  
     options:
       - label: series was completed.
 - type: dropdown
   attributes:
-    label: task-mariostars_run-02 issues
+    label: task-interdms_run-01 issues
     multiple: true
     options:
       - sleep
@@ -67,21 +66,19 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-mariostars_run-02 notes
-
-
+    label: task-interdms_run-01 notes
 
 - type: markdown
   attributes:
-    value: "## task-mariostars_run-03"
+    value: "## task-interdms_run-02"
 - type: checkboxes
   attributes:
-    label: task-mariostars_run-03 completion  
+    label: task-interdms_run-02 completion  
     options:
       - label: series was completed.
 - type: dropdown
   attributes:
-    label: task-mariostars_run-03 issues
+    label: task-interdms_run-02 issues
     multiple: true
     options:
       - sleep
@@ -91,19 +88,21 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-mariostars_run-03 notes
+    label: task-interdms_run-02 notes
+
+
 
 - type: markdown
   attributes:
-    value: "## task-mariostars_run-04"
+    value: "## task-interdms_run-03"
 - type: checkboxes
   attributes:
-    label: task-mariostars_run-04 completion  
+    label: task-interdms_run-03 completion  
     options:
       - label: series was completed.
 - type: dropdown
   attributes:
-    label: task-mariostars_run-04 issues
+    label: task-interdms_run-03 issues
     multiple: true
     options:
       - sleep
@@ -113,19 +112,19 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-mariostars_run-04 notes
+    label: task-interdms_run-03 notes
 
 - type: markdown
   attributes:
-    value: "## task-mariostars_run-05"
+    value: "## task-ctxdm_run-01"
 - type: checkboxes
   attributes:
-    label: task-mariostars_run-05 completion  
+    label: task-ctxdm_run-01 completion  
     options:
       - label: series was completed.
 - type: dropdown
   attributes:
-    label: task-mariostars_run-05 issues
+    label: task-ctxdm_run-01 issues
     multiple: true
     options:
       - sleep
@@ -135,4 +134,26 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-mariostars_run-05 notes
+    label: task-ctxdm_run-01 notes
+
+- type: markdown
+  attributes:
+    value: "## task-nback_run-01"
+- type: checkboxes
+  attributes:
+    label: task-nback_run-01 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-nback_run-01 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
+      - controller issues
+- type: textarea
+  attributes:
+    label: task-nback_run-01 notes
