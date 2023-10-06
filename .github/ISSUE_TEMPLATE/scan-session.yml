@@ -136,6 +136,29 @@ body:
   attributes:
     label: task-ctxdm_run-01 notes
 
+
+- type: markdown
+  attributes:
+    value: "## task-ctxdm_run-02"
+- type: checkboxes
+  attributes:
+    label: task-ctxdm_run-02 completion  
+    options:
+      - label: series was completed.
+- type: dropdown
+  attributes:
+    label: task-ctxdm_run-02 issues
+    multiple: true
+    options:
+      - sleep
+      - excessive motion
+      - eyetracking issues (crash, pupil loss)
+      - physio signal quality issue
+      - controller issues
+- type: textarea
+  attributes:
+    label: task-ctxdm_run-02 notes
+
 - type: markdown
   attributes:
     value: "## task-nback_run-01"
