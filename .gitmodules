@@ -1,0 +1,4 @@
+[submodule ".heudiconv"]
+	path = .heudiconv
+	url = ./.heudiconv
+	datalad-id = eaa539a7-6ac7-487b-a1ec-fdf26e2fa2ce
